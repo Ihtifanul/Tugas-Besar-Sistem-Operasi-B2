@@ -1,0 +1,344 @@
+/* Styling Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e7ce; /* Warna champagne */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #ff8c00; /* Warna orange untuk banner judul */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Link dan Tombol */
+a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff8c00; /* Warna orange untuk tombol */
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc7000;
+}
+
+/* Styling Tabel */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff; /* Warna biru untuk header tabel */
+    color: #000000;
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+td {
+    padding: 12px;
+    background-color: #f0f8ff; /* Warna putih biru muda untuk isi tabel */
+    color: #333; /* Tulisan dalam tabel berwarna hitam */
+}
+
+tr:nth-child(even) {
+    background-color: #dceefb; /* Warna biru muda untuk baris genap tabel */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; /* Warna putih untuk baris ganjil tabel */
+}
+
+/* Styling Form */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #cc7000;
+}
+
+/* Pesan Kesuksesan dan Error */
+p.success {
+    color: green;
+    text-align: center;
+}
+
+p.error {
+    color: red;
+    text-align: center;
+}
+
+/* Tombol Aksi di Tabel */
+td a {
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #ff8c00;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+td a:hover {
+    background-color: #cc7000;
+}
+
+td a.delete {
+    background-color: #dc3545;
+}
+
+td a.delete:hover {
+    background-color: #c82333;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.footer a {
+    color: #ff8c00;
+}
+
+.footer a:hover {
+    color: #cc7000;
+    text-decoration: underline;
+}
+
+/* Card atau Box untuk Konten */
+.card {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #ff8c00;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Styling Khusus Login dan Register */
+.login-container, .register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h2, .register-container h2 {
+    color: #ff8c00;
+    margin-bottom: 20px;
+}
+
+.login-container button, .register-container button {
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Dashboard Styling */
+.dashboard-header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.8em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.dashboard-menu a {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.dashboard-menu a:hover {
+    background-color: #0056b3;
+}
+.back-to-dashboard-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.back-to-dashboard-btn:hover {
+    background-color: #cc7000;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Pengaturan Umum */
+/* Pengaturan Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f1e1; /* Warna background champagne */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper untuk konten */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 50px;  /* Jarak dari atas halaman */
+}
+
+h1 {
+    color: #000000; /* Mengubah warna teks menjadi hitam */
+    font-size: 3em; /* Ukuran font besar untuk judul */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Bagian Tentang Terang Bulan */
+.about {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #4e91f0; /* Warna biru */
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk tombol navigasi */
+.nav-links nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    background-color: #ff8c00; /* Warna oranye */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #e77c00; /* Warna oranye lebih gelap saat hover */
+    transform: translateY(-5px); /* Efek tombol terangkat */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Menyesuaikan tampilan di layar kecil */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .about h2 {
+        font-size: 1.8em;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 12px 24px;
+    }
+}
